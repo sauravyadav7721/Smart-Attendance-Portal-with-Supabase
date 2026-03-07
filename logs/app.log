@@ -1,0 +1,88 @@
+2026-03-07 22:28:24,581 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:28:46,282 | ERROR | Attendence.admin | admin.py:80 | sidebar_controls() | Error in sidebar_controls
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 51, in sidebar_controls
+    exists = supabase.table("classroom_settings").select("*").eq("class_name", class_input).execute().data
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:28:46,395 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:28:58,454 | ERROR | Attendence.admin | admin.py:80 | sidebar_controls() | Error in sidebar_controls
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 51, in sidebar_controls
+    exists = supabase.table("classroom_settings").select("*").eq("class_name", class_input).execute().data
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:28:58,565 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:30:18,248 | ERROR | Attendence.student | student.py:35 | show_student_panel() | Failed to fetch open classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\student.py", line 27, in show_student_panel
+    .execute()
+     ^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:32:41,800 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:32:54,663 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:33:08,330 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:33:19,635 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
+2026-03-07 22:36:36,013 | ERROR | Attendence.admin | admin.py:90 | class_controls() | Failed to fetch classes
+Traceback (most recent call last):
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\Attendence\admin.py", line 87, in class_controls
+    classes_resp = supabase.table("classroom_settings").select("*").execute()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Saurav Yadav\Desktop\smart_attendance_protal\smattenv\Lib\site-packages\postgrest\_sync\request_builder.py", line 53, in execute
+    raise APIError(dict(json_obj))
+postgrest.exceptions.APIError: {'message': "Could not find the table 'public.classroom_settings' in the schema cache", 'code': 'PGRST205', 'hint': "Perhaps you meant the table 'public.classroom_setting'", 'details': None}
