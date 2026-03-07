@@ -68,21 +68,28 @@ The application communicates with Supabase using its **Python client**, allowing
 # 📂 Project Structure
 
 ```
-Smart-Attendance-Portal-with-Supabase
+Attendence/
 │
-├── Attendence
-│   ├── admin.py
-│   ├── attendance.py
-│   └── database.py
+├── admin.py              → Admin dashboard logic
+├── analytics.py          → Attendance analytics
+├── clients.py            → Supabase client builder
+├── config.py             → Environment/config loader
+├── logger.py             → Central logging system
+├── student.py            → Student attendance UI + logic
+├── supabase_client.py    → (deprecated now, merged into clients)
+├── utils.py              → Shared helpers (dates, etc.)
 │
-├── frontend
-│   └── app.py
+├── admin_main.py         → Streamlit entry for admin
+├── student_main.py       → Streamlit entry for student
 │
-├── .streamlit
+├── logs/
+│   └── app.log           → Combined logs
 │
-├── requirements.txt
-├── README.md
-└── .gitignore
+├── records/              → CSV exports for admin analytics
+│
+├── pyproject.toml        → Project dependencies
+├── requirements.txt      → For pip installs
+├── versions.py           → Prints package versions
 ```
 
 ---
@@ -239,4 +246,5 @@ This project implementation was inspired by the learning resources and project e
 
 If you found this project helpful, please consider **starring the repository** ⭐
 It helps the project reach more developers and learners.
+
 
