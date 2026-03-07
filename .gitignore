@@ -12,3 +12,6 @@ smattenv
 #secret file
 .env
 
+
+.streamlit/secrets.toml
+
